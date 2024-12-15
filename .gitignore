@@ -1,0 +1,9 @@
+.env
+node_modules
+package-lock.json
+src/data/*
+src/downloads/*
+session/*
+dist*
+test/*
+ex*.json
