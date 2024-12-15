@@ -1,20 +1,22 @@
 # Bot WhatsApp with Typescript and AI 
 
-## how to setup the system config?
+### how to setup the system config?
 
 go to `/src/config/system-config.conf` to change the AI behavior
 
-## how to add admin number?
+### how to add admin number?
 
 go to `/src/config/config.yaml` edit admin number field, please do not remove any of `@s.whatsapp.net` in this file, that is WhatsApp format
 
 if you have for example 081234567890, just remove the `0` and change it to `62` 6281234567890
 
-then go to [Google Gemini API](https://aistudio.google.com/apikey) to get your API key and paste in .env.example, and rename to just .env
+### add your api key 
+
+then go to [Google Gemini API](https://aistudio.google.com/apikey) to get your API key and paste in `.env.example`, and rename to just `.env`
 
 then you are ready to GO
 
-## to run the bot is simply like this 
+### to run the bot is simply like this 
 
 first of all you need to install all dependency in this program
 
